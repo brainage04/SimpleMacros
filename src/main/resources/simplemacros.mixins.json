@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.github.brainage04.myfabrictemplate.mixin",
+	"package": "com.github.brainage04.simplemacros.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 

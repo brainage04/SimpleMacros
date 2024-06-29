@@ -1,15 +1,15 @@
-package com.github.brainage04.myfabrictemplate;
+package com.github.brainage04.simplemacros;
 
-import com.github.brainage04.myfabrictemplate.command.CommandRegistration;
-import com.github.brainage04.myfabrictemplate.keybind.KeybindRegistration;
+import com.github.brainage04.simplemacros.command.CommandRegistration;
+import com.github.brainage04.simplemacros.keybind.KeybindRegistration;
 import net.fabricmc.api.ClientModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Client implements ClientModInitializer {
-	public static final String MOD_ID = "myfabrictemplate";
-	public static final String MOD_NAME = "MyFabricTemplate";
+	public static final String MOD_ID = "simplemacros";
+	public static final String MOD_NAME = "SimpleMacros";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	public static final String MOD_AUTHOR = "brainage04";

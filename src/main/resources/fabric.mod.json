@@ -1,26 +1,26 @@
 {
 	"schemaVersion": 1,
-	"id": "myfabrictemplate",
+	"id": "simplemacros",
 	"version": "${version}",
-	"name": "MyFabricTemplate",
-	"description": "My Fabric modding template for Minecraft 1.21.",
+	"name": "SimpleMacros",
+	"description": " A collection of simple macros for simple problems.",
 	"authors": [
 		"brainage04"
 	],
 	"contact": {
 		"homepage": "https://github.com/brainage04",
-		"sources": "https://github.com/brainage04/MyFabricTemplate"
+		"sources": "https://github.com/brainage04/SimpleMacros"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/myfabrictemplate/icon.png",
+	"icon": "assets/simplemacros/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"client": [
-			"com.github.brainage04.myfabrictemplate.Client"
+			"com.github.brainage04.simplemacros.Client"
 		]
 	},
 	"mixins": [
-		"myfabrictemplate.mixins.json"
+		"simplemacros.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

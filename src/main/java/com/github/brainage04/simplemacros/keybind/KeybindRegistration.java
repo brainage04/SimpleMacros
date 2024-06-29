@@ -1,6 +1,6 @@
-package com.github.brainage04.myfabrictemplate.keybind;
+package com.github.brainage04.simplemacros.keybind;
 
-import com.github.brainage04.myfabrictemplate.Client;
+import com.github.brainage04.simplemacros.Client;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.option.KeyBinding;
