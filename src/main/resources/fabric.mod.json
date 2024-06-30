@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"client": [
 			"com.github.brainage04.simplemacros.Client"
+		],
+		"modmenu": [
+			"com.github.brainage04.simplemacros.modmenu.ModMenuIntegration"
 		]
 	},
 	"mixins": [

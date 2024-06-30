@@ -1,6 +1,7 @@
 package com.github.brainage04.simplemacros;
 
 import com.github.brainage04.simplemacros.command.CommandRegistration;
+import com.github.brainage04.simplemacros.config.Config;
 import com.github.brainage04.simplemacros.keybind.KeybindRegistration;
 import net.fabricmc.api.ClientModInitializer;
 
@@ -20,6 +21,8 @@ public class Client implements ClientModInitializer {
 
 		KeybindRegistration.registerKeybinds();
 		CommandRegistration.registerCommands();
+
+		Config.load();
 
 		LOGGER.info(MOD_NAME + " initialized.");
 	}
